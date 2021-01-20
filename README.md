@@ -21,7 +21,7 @@ Getting airports list
 
 ```python
 import flightradar24
-fr = flightradar24.Api()
+fr = flightradar24.API()
 airports = fr.get_airports()
 ```
 
@@ -29,7 +29,7 @@ Getting airlines list
 
 ```python
 import flightradar24
-fr = flightradar24.Api()
+fr = flightradar24.API()
 airlines = fr.get_airlines()
 ```
 
@@ -38,7 +38,7 @@ Getting flights list
 ```python
 import flightradar24
 airline = 'THY' # Turkish Airlines
-fr = flightradar24.Api()
+fr = flightradar24.API()
 flights = fr.get_flights(airline)
 ```
 
@@ -47,7 +47,7 @@ Getting flight details
 ```python
 import flightradar24
 flight_id = 'TK1' # Turkish Airlines' Istanbul - New York flight
-fr = flightradar24.Api()
+fr = flightradar24.API()
 flight = fr.get_flight(flight_id)
 ```
 
@@ -61,5 +61,6 @@ Credits
 =======
 
 * `Mehmet Korkmaz <http://github.com/mkorkmaz>`_
+* `Harry Kearney <http://github.com/harrykearney>`_
 
 
