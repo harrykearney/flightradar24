@@ -3,7 +3,7 @@ from .helpers import *
 import time
 
 
-class Api:
+class API:
     """Flight Radar 24 API"""
 
     balanceJsonUrl = 'https://www.flightradar24.com/balance.json'
